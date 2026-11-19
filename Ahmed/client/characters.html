@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>الشخصيات</title>
+  <style>
+    html,body{margin:0;height:100%;overflow:hidden;background:#0b2230;color:#fff;font-family:system-ui,Tahoma,sans-serif}
+    #labels{position:fixed;inset:0;pointer-events:none}
+    .lbl{position:absolute;transform:translateX(-50%);font-weight:800;font-size:22px;text-shadow:0 2px 4px #000;text-align:center}
+    .lbl small{display:block;font-size:12px;opacity:.8;font-weight:600}
+    h1{position:fixed;top:14px;width:100%;text-align:center;margin:0;font-size:26px;text-shadow:0 2px 4px #000}
+  </style>
+</head>
+<body>
+  <h1>اختر شخصيتك</h1>
+  <div id="labels"></div>
+  <script type="module" src="/src/preview.ts"></script>
+</body>
+</html>
